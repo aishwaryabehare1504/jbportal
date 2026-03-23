@@ -22,7 +22,10 @@
 - Get All Jobs
 
 ## 📷 Screenshots
-(Will add below)
+![GET API](get.png)
+![POST API](post.png)
+![UPDATE API](update.png)
+![DELETE API](delete.png)
 
 ## ▶️ How to Run
 1. Clone the repository

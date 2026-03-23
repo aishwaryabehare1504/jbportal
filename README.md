@@ -34,3 +34,9 @@
 2. Open in IntelliJ IDEA
 3. Configure MySQL in application.properties
 4. Run the Spring Boot application
+   
+## ⚠️ Exception Handling
+
+- Proper error handling implemented for cases like duplicate user registration
+
+![User Already Exists](error.png)

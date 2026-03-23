@@ -22,10 +22,12 @@
 - Get All Jobs
 
 ## 📷 Screenshots
-![GET API](get.png)
-![POST API](post.png)
-![UPDATE API](update.png)
-![DELETE API](delete.png)
+![Register API](register.png)
+![Login API](login.png)
+![Create Job](post.png)
+![Get Jobs](get.png)
+![Update Job](update.png)
+![Delete Job](delete.png)
 
 ## ▶️ How to Run
 1. Clone the repository

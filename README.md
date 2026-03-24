@@ -1,24 +1,20 @@
 # 🚀 Online Job Portal API (Spring Boot | MySQL | Docker)
 
-🔗 Live API: Coming Soon (Currently runs on localhost:8083) 
+🔗 Live API: Coming Soon (Currently runs on localhost:8083)  
 📂 GitHub Repo: https://github.com/aishwaryabehare1504/jbportal  
-
-A backend-based Job Portal application that provides REST APIs for managing job listings and user authentication. Built using Spring Boot, this system supports job CRUD operations and secure login/register functionality using Spring Security.
 
 ---
 
 ## 📋 Project Overview
 
-This project is a backend-based Job Portal system designed to simulate real-world job listing platforms.
+A backend-based Job Portal application that provides REST APIs for managing job listings and user authentication.
 
-💡 This project demonstrates my understanding of backend development, REST API design, database integration, and Spring Security — aligned with real-world backend engineering roles.
+💡 Demonstrates backend development, REST API design, database integration, and Spring Security.
 
 ### It allows:
 - Users to register and login securely  
-- Admins/users to create, update, delete, and view jobs  
-- Secure password handling using BCrypt encryption  
-
-The application follows clean architecture using Controller, Service, and Repository layers.
+- Create, update, delete, and view jobs  
+- Secure password handling using BCrypt  
 
 ---
 
@@ -26,28 +22,27 @@ The application follows clean architecture using Controller, Service, and Reposi
 
 ### 🔹 Core Components
 
-### 1. Controller Layer (API Layer)
-- `JobController.java` → Job CRUD APIs  
-- `AuthController.java` → Register & Login APIs  
+**1. Controller Layer**
+- `JobController.java`  
+- `AuthController.java`  
 
-### 2. Service Layer (Business Logic)
-- `JobService.java` → Job operations logic  
-- `UserService.java` → User authentication logic  
+**2. Service Layer**
+- `JobService.java`  
+- `UserService.java`  
 
-### 3. Repository Layer (Data Access)
+**3. Repository Layer**
 - `JobRepository.java`  
 - `UserRepository.java`  
 
-### 4. Model Layer (Entities)
-- `Job.java` → Job details  
-- `User.java` → User credentials  
+**4. Model Layer**
+- `Job.java`  
+- `User.java`  
 
-### 5. Security Configuration
+**5. Security**
 - `SecurityConfig.java`  
-- Password encryption using BCrypt  
-- Basic Spring Security configuration  
+- BCrypt encryption  
 
-### 6. Payload (DTOs)
+**6. DTOs**
 - `LoginRequest.java`  
 - `LoginResponse.java`  
 
@@ -56,26 +51,22 @@ The application follows clean architecture using Controller, Service, and Reposi
 ## 🚀 Features
 
 - User Registration & Login  
-- Secure password encryption (BCrypt)  
-- Create Job  
-- Get All Jobs  
-- Update Job  
-- Delete Job  
+- Password encryption (BCrypt)  
+- CRUD operations for jobs  
 - RESTful API design  
-- MySQL database integration  
-- Dockerized application  
-- Environment variable configuration  
+- MySQL integration  
+- Docker support  
 
 ---
 
 ## 📸 API Screenshots
 
-- 📌 Create Job → `post.png`  
-- 📌 Get Jobs → `get.png`  
-- 📌 Update Job → `update.png`  
-- 📌 Delete Job → `delete.png`  
-- 📌 Register → `register.png`  
-- 📌 Login → `login.png`  
+- Create Job → `post.png`  
+- Get Jobs → `get.png`  
+- Update Job → `update.png`  
+- Delete Job → `delete.png`  
+- Register → `register.png`  
+- Login → `login.png`  
 
 ---
 
@@ -112,19 +103,17 @@ com.jobportal
 
 ## ⚙️ Tech Stack
 
-- Backend: Spring Boot  
-- Language: Java  
-- Database: MySQL  
-- ORM: Spring Data JPA  
-- Security: Spring Security + BCrypt  
-- Build Tool: Maven  
-- Containerization: Docker  
+- Spring Boot  
+- Java  
+- MySQL  
+- Spring Data JPA  
+- Spring Security  
+- Maven  
+- Docker  
 
 ---
 
 ## 🔧 Configuration
-
-### Environment Variables
 
 ```
 DB_URL=your_database_url
@@ -136,15 +125,8 @@ DB_PASSWORD=your_password
 
 ## 🐳 Docker Setup
 
-### Build Docker Image
-
 ```
 docker build -t job-portal .
-```
-
-### Run Container
-
-```
 docker run -p 8083:8083 job-portal
 ```
 
@@ -152,13 +134,11 @@ docker run -p 8083:8083 job-portal
 
 ## 🚀 API Endpoints
 
-### 🔐 Authentication APIs
-
+### 🔐 Auth APIs
 - POST `/auth/register`  
 - POST `/auth/login`  
 
 ### 💼 Job APIs
-
 - POST `/jobs`  
 - GET `/jobs`  
 - PUT `/jobs/{id}`  
@@ -166,9 +146,9 @@ docker run -p 8083:8083 job-portal
 
 ---
 
-## 💡 Usage Example
+## 💡 Sample Requests
 
-### Register User
+### Register
 ```json
 {
   "email": "test@gmail.com",
@@ -176,7 +156,7 @@ docker run -p 8083:8083 job-portal
 }
 ```
 
-### Login User
+### Login
 ```json
 {
   "email": "test@gmail.com",
@@ -196,54 +176,38 @@ docker run -p 8083:8083 job-portal
 
 ---
 
-## 🔒 Security Features
+## 🔒 Security
 
-- Passwords are encrypted using BCrypt  
-- Input validation in authentication APIs  
-- Basic secure configuration using Spring Security  
-- No hardcoded credentials (uses environment variables)  
+- BCrypt password encryption  
+- Input validation  
+- No hardcoded credentials  
 
 ---
 
-## 🚨 Challenges Faced
+## 🚨 Challenges
 
-- Understanding layered architecture (Controller → Service → Repository)  
-- Implementing password encryption and validation  
-- Configuring Spring Security properly  
-- Managing environment variables for database connection  
-- Debugging API errors during integration testing  
+- Layered architecture understanding  
+- Spring Security configuration  
+- Environment setup  
+- API debugging  
 
 ---
 
 ## 📈 Future Enhancements
 
-- JWT Authentication (Token-based login)  
-- Role-based access (Admin/User)  
-- Pagination & filtering for jobs  
-- Frontend integration (React)  
-- Deployment on AWS / Render  
-- Resume upload & job application feature  
+- JWT Authentication  
+- Role-based access  
+- Pagination & filtering  
+- Frontend integration  
+- Deployment  
+- Resume upload feature  
 
 ---
 
-## 🤝 Contributing
+## 🔗 Connect
 
-📌 Note: This project is built for learning and demonstration purposes.  
-
-Currently, contributions are not open, but suggestions are welcome.
-
----
-
-## 📄 License
-
-This project is created for learning and demonstration purposes only.
-
----
-
-## 🔗 Connect With Me
-
-💼 GitHub: https://github.com/aishwaryabehare1504/jbportal  
-🔗 LinkedIn: https://www.linkedin.com/in/aishwarya-behare-45191b307/
+GitHub: https://github.com/aishwaryabehare1504/jbportal  
+LinkedIn: https://www.linkedin.com/in/aishwarya-behare-45191b307/
 
 ---
 

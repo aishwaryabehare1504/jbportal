@@ -207,7 +207,7 @@ docker run -p 8083:8083 job-portal
 ## 🔗 Connect
 
 GitHub: https://github.com/aishwaryabehare1504/jbportal  
-LinkedIn: https://www.linkedin.com/in/aishwarya-behare-45191b307/
+LinkedIn: https://www.linkedin.com/in/aishwarya-behare-45191b307/  
 
 ---
 

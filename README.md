@@ -78,6 +78,10 @@ A backend-based Job Portal application that provides REST APIs for managing job 
 
 ### 🔹 Login
 ![Login](login.png)
+
+### 🔹 Exception Handling - Duplicate User Registration
+![User Exists](error.png)
+
 ---
 
 ## 📁 Project Structure

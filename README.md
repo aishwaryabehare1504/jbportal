@@ -61,13 +61,23 @@ A backend-based Job Portal application that provides REST APIs for managing job 
 
 ## 📸 API Screenshots
 
-- Create Job → `post.png`  
-- Get Jobs → `get.png`  
-- Update Job → `update.png`  
-- Delete Job → `delete.png`  
-- Register → `register.png`  
-- Login → `login.png`  
+### 🔹 Create Job
+![Create Job](post.png)
 
+### 🔹 Get Jobs
+![Get Jobs](get.png)
+
+### 🔹 Update Job
+![Update Job](update.png)
+
+### 🔹 Delete Job
+![Delete Job](delete.png)
+
+### 🔹 Register
+![Register](register.png)
+
+### 🔹 Login
+![Login](login.png)
 ---
 
 ## 📁 Project Structure
@@ -201,6 +211,22 @@ docker run -p 8083:8083 job-portal
 - Frontend integration  
 - Deployment  
 - Resume upload feature  
+
+---
+
+## 🤝 Contributing
+
+📌 This project is built for learning and demonstration purposes.
+
+Currently, contributions are not open. However, suggestions, feedback, and improvements are always welcome.
+
+If you’d like to contribute in the future, feel free to fork the repository and create a pull request.
+
+---
+
+## 📄 License
+
+This project is for learning and demonstration purposes only.
 
 ---
 

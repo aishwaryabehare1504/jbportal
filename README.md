@@ -1,6 +1,6 @@
 # 🚀 Online Job Portal API (Spring Boot | MySQL | Docker)
 
-🔗 Live API Base URL: http://localhost:8083  
+🔗 Live API: Coming Soon (Currently runs on localhost:8083) 
 📂 GitHub Repo: https://github.com/aishwaryabehare1504/jbportal  
 
 A backend-based Job Portal application that provides REST APIs for managing job listings and user authentication. Built using Spring Boot, this system supports job CRUD operations and secure login/register functionality using Spring Security.
